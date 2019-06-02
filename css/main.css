@@ -18,6 +18,18 @@ h2 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+h2 ~ p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
+h4 {
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 a {
   color: #6397b5;
 }
@@ -25,12 +37,22 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
-h2 ~ p {
-  font-size: 0.8em;
-  font-style: italic;
-  margin: 1em auto 0;
-  max-width: 70%;
+
+.page {
+  margin: 10vh auto 15vh;
+  max-width: 980px;
+  width: 85vw;
+}
+.page h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
   text-align: center;
+}
+.page h2 {
+  margin-bottom: 0.5em;
+}
+.page h4 {
+  margin-bottom: 1em;
 }
 
 .content-container {
@@ -85,6 +107,11 @@ h2 ~ p {
   background-color: #000;
   color: #fff;
 }
+.half-hero {
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+}
 
 /* HOMEPAGE STYLES */
 .home-section {
@@ -106,6 +133,21 @@ h2 ~ p {
 .home-callout h3 {
   color: inherit;
   margin-top: 1em;
+}
+.home-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  margin: auto;
+  width: 75%;
 }
 .callout-title {
   flex: 1;
