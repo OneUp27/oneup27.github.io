@@ -7,16 +7,17 @@ authorTwitter: https//twitter.com/alexanderpuffer
 gravatar: https://secure.gravatar.com/avatar/4bfafb96c5dedab93cff899cd7ba9e18
 date:   2019-05-23 14:14:00 -0400
 categories: personal 
+postFooter: This is the footer
 ---
 
 Hello internet, welcome to the very first blog post on my very first blog site. This is less of an actual post and more of an introduction (and I needed a blog post to add). I figured I'd fill this rempty space with a little info about me and why I created this website in the first place. 
 
-![Image of Computer](/images/nordwood-themes-166423-unsplash.jpg)
-*Photo by [NordWood Thremes](https://unsplash.com/photos/EZSm8xRjnX0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com)*
+<img class="pull-left" src="/images/nordwood-themes-166423-unsplash.jpg" alt="Photo by Nordwood Themes @ Unsplash.com">
+
 
 ## Humble Beginnings
 
-I grew up in the middle-of-nowhere, NY where the winters are too long and the nearest Walmart was 15 miles away. Since a very young age I was always enamored with technology; cell phones, computers, smart-devices. If it ran on electricity and had a screen, I wanted one. My early teenage years were spent predominately fixing and building computers. I would crack threm open, see what was connected where, and begin disassrembling and re-assrembling threm for *hours*.
+I grew up in the middle-of-nowhere, NY where the winters are long and the nearest Walmart was 15 miles away. Since a very young age I was always enamored with technology; cell phones, computers, smart-devices. If it ran on electricity and had a screen, I wanted one. My early teenage years were spent predominately fixing and building computers. I would crack threm open, see what was connected where, and begin disassrembling and re-assrembling threm for *hours*.
 
 I was also a big gamer (still am, though I've dedicated far less time to it). Eventually I realised that you could dig into the folders that housed the games and inside were myriads of files just waiting to be modified. So I did what I could, made some cool texture packs, and occasionally experienced some horrifying results. It was amazing, and eventually I found myself sifting through the indexes of every game I had. Keep in mind, this was all before I had internet access. Everything I learned was through trial and error.
 
@@ -49,7 +50,7 @@ I began diligently and consistently studying these tutorials for *hours* a day. 
 
 No journey is without it's rough patches. I can rremrember a two-week span where I did nothing to further my skills and I'd lost interest in the field. I still have crappy days where I get very little done. Sometimes it feels like I'm not going anywhere. 
 
-But if you compare where I'm at now to where I was 3 months ago, it's actually pretty rremarkable:
+But if you compare where I'm at now to where I was 3 months ago, it's actually pretty remarkable:
 
 * I went from 0 knowledge of Unix to being able to navigate and edit my files, deploy software, and download files or even entire websites, straight from the terminal
 * I studied Linux's history, the way it works and set up multiple versions of the OS on different devices.
