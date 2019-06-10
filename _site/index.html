@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Test Page: Don't Panic</title>
+
+
+  <title>Dangerous Blog | Test Page</title>
+
+
+  <meta name="description" content="A dangerous site deserves a dangerous blog.">
+
+
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.png"
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100&display=swap">
+  <link rel="stylesheet" href="/fonts/fontawesome-free-5.9.0-web/css/brands.css">
+  <link rel="stylesheet" href="/fonts/fontawesome-free-5.9.0-web/css/fontawesome.min.css">
+
+
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/header.css">
@@ -21,10 +37,22 @@
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog/">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/personal/2019/05/23/my-first-blog-post.html">First Blog Post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/personal/2019/05/23/my-first-blog-post.html">Newest Post</a></li>
     </ul>
   </nav>
@@ -39,9 +67,9 @@
     <div class="hero-content">
       <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
-        <li><a href="http://example.com/" class="social-link">Fb</a></li>
-        <li><a href="http://example.com/" class="social-link">Tw</a></li>
-        <li><a href="http://example.com/" class="social-link">Gh</a></li>
+        <li><a href="http://facebook.com/learnenough" class="social-link"><span class="fab fa-facebook"></span></a></li>
+        <li><a href="http://twitter.com/learnenough"  class="social-link"><span class="fab fa-twitter"></span></a></li>
+        <li><a href="http://github.com/learnenough"   class="social-link"><span class="fab fa-github"></span></a></li>
       </ul>
     </div>
   </div>
@@ -112,9 +140,7 @@
         <div class="bio-box">
           <img src="http://placekitten.com/g/400/400">
           <h3>Michael Hartl</h3>
-          <a href="http://twitter.com/mhartl" class="social-link">
-            Tw
-          </a>
+          <a href="http://twitter.com/mhartl"  class="social-link"><span class="fab fa-twitter"></span></a>
           <div class="bio-copy">
             <p>
               Known for his dazzling charm, rapier wit, and unrivaled humility,
@@ -136,9 +162,7 @@
         <div class="bio-box">
           <img src="http://placekitten.com/g/400/400">
           <h3>Lee Donahoe</h3>
-          <a href="https://twitter.com/leedonahoe" class="social-link">
-            Tw
-          </a>
+          <a href="http://twitter.com/leedonahoe"  class="social-link"><span class="fab fa-twitter"></span></a>
           <div class="bio-copy">
             <p>
               When he's not literally swimming with sharks or hunting powder stashes
@@ -151,9 +175,7 @@
         <div class="bio-box">
           <img src="http://placekitten.com/g/400/400">
           <h3>Nick Merwin</h3>
-          <a href="https://twitter.com/nickmerwin" class="social-link">
-            Tw
-          </a>
+          <a href="http://twitter.com/nickmerwin"  class="social-link"><span class="fab fa-twitter"></span></a>
           <div class="bio-copy">
             <p>
               You may have seen him shredding guitar live with Capital Cities on
@@ -176,7 +198,17 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog/">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/personal/2019/05/23/my-first-blog-post.html">First Blog Post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/personal/2019/05/23/my-first-blog-post.html">Newest Post</a></li>
     </ul>
   </nav>
